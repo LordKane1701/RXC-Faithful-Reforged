@@ -1,0 +1,309 @@
+#
+# metadata.yaml for Reaver's Xcom
+#
+# This mod uses 2 features which can only be accessed when run with Openxcom Extended (OXCE):
+#         * The Avenger has 3 weapon slots, and the Starstreak has 4 weapon slots. Without OXCE you can only equip 2 weapons.
+#         * Infiltration missions may be stopped if you defeat UFOs in the final wave. Without OXCE you can only delay missions.
+#
+# changelog:
+# 0.1.0: Changed late game craft (Stalker, etc.) to be much stronger and very expensive.
+#		  * Increased production cost of Alien Tech craft (Firestorm, etc.).
+# 0.1.1: Greatly increased production cost of hovertanks.
+#		  * Significantly nerfed laser tank armor. Good armor is more expensive now.
+# 0.1.2: Altered Lightning, Stalker, and Starstreak maps.
+# 0.1.3: Increased the monetary cost of armor, especially power and flying suits.
+# 0.2.0: Added in language files and some previously missing features from other Reaver's X mods.
+#		  * Added UFOPedia entries for tanks.
+#		  * Made plasma hovertanks require Automatic Plasma Weapons tech in order to research.
+# 0.2.1: Added partial fixes for plasma UFOPedia bugs.
+#		  * Increased Grenade damage to 70 and Alien Grenade damage to 110, reduced Alien Grenade weight to 2.
+#		  * Altered small launcher bombs to cost 1 alien alloy instead of elerium to manufacture.
+#		  * Increased elerium cost of HWP fusion missiles by 1 each.
+# 0.2.2: Added more fixes for UFOPedia bugs.
+#		  * Added individual research projects for early research craft (Sparrow, etc.).
+#		  * Added individual research projects for terran plasma weapons.
+# 0.2.3: Reduced Blaster Bomb and Fusion Rocket explosion radius to 4 and changed their UFOPedia entries.
+#		  * Reduced Sectopod AP weakness from 80% to 40%. Battle Tank w/Cannon can still damage a Sectopod.
+# 0.3.0: Added graphics and tweaked existing graphics for plasma weapons.
+#		  * Most item research projects now destroy the item, including all alien weapons.
+#		  * You must research an engineer in order to research UFO Construction.
+# 0.3.1: Added Large General Stores using Dioxine's base-view sprite.
+#		  * Fixed a bug that was allowing player to manufacture UFO Power Source and Navigation.
+# 0.4.1: Added doors to Lightning and fixed several of its graphical glitches.
+# 0.5.0: Changed Large Radar System to large size facility, added base sprite and map for Large Radar System.
+#		  * Buffed Small Radar System from 10% detection rate to 40%; it is now called Radar System.
+#		  * Implemented a fix for an occlusion bug with the Skyranger's eastern top fin.
+#		  * Tweaked existing large facility maps slightly.
+#		  * Added Alien Explosive ammo for Heavy Cannon and Auto Cannon.
+# 0.5.1: Balanced item inventory sizes.
+#		  * Tank cannon and plasma ammos now come in units of 5.
+#		  * Plasma craft weapon ammos now come in units of 5 and 1, instead of 10 and 2.
+# 0.5.2: Updated Starting Base and altered starting items. You now start with a tank.
+#		  * Nerfed laser weapon profit margins to put in line with other things you can produce.
+#		  * Greatly increased costs of plasma and fusion technologies.
+# 0.5.3: Added research projects for conventional blaster and small launcher charges.
+#		  * Buffed battle and assault tank fusion missiles slightly.
+#		  * Super Soldiers now require research into alien "enhancement" in addition to Medi-kit.
+#		  * Alien Containment now requires Alien Food and Alien Entertainment
+#			- This means that you must assault a few larger UFOs before you can get UFO Construction.
+# 0.5.4: Increased fusion ball damage and elerium cost. They may now destroy medium or large UFOs.
+#		  * Changed Stingrays to 10 ammo, double rate of fire, lowered damage from 70 to 60.
+#		  * Heavy Fusion Ball now requires its own research, which you need to research Fusion Defense.
+#		  * Reduced Motion Scanner sell value, and cut TU cost to use all the way down to 1.
+#		  * Changed medi-kit UFOPedia text and gave it a sell value once again.
+# 0.5.5: Increased Sectoid Psi Strength and reduced their Psi Skill.
+#		  * Added Heavy Armor which you can manufacture at the start of a game.
+#		  * Updated UFOPedia entries for UFO Navigation and Power Source.
+# 0.5.6: Doubled facility maintenance costs, tweaked defense facility strengths and maintenance costs.
+#		  * Increased radar ranges a bit and changed UFOPedia entries to display correct range.
+# 0.6.0: Added new larger map for Heracles and adjusted some of its attributes accordingly.
+#		  * Aligned conventional small bomb damages all to 90 and buffed incendiary and smoke.
+# 0.7.0: Added eight new aircraft graphics from X-Com Files mod, including battlescape maps for some.
+#		  * Increased Firestorm, Lightning, and Vanquisher fuel capacity.
+#		  * Set troop capacities: Avenger: 12/1 Stalker: 16/2 Starstreak: 1/0 Assassin: 14/3
+#		  * Tweaked attributes of Stalker, Starstreak, and Heracles.
+#			- Stalker is primary patroller, secondary transport, tertiary interceptor
+#			- Heracles is primary transport, secondary interceptor, tertiary patroller
+#			- Starstreak is primary interceptor, secondary patroller, tertiary transport
+# 0.7.1: Reduced weight of Alien Explosive ammo.
+#		  * Increased power of Fusion Rocket to 240.
+#		  * Rearranged Terran Plasma list orders.
+#		  * Tweaked Auto-pistol bigobs graphic.
+#		  * Fixed alignment of Small Launcher graphic for one-hand.
+# 0.8.0: Changed difficulty settings--firing accuracy and armor change more strongly with difficulty.
+#		  * Superhuman is very difficult, while Genius is more like what Superhuman used to be.
+#		  * Beginner is much easier now, while Experienced is closer to what Beginner used to be.
+#		  * Alien TUs, Stam, HP, Reactions, and Psi Str change greatly depending on difficulty setting.
+#		  * Increased Incendiary damage from 5-10 to 10-30.
+#		  * Changed armor incendiary resistance from 20%/100% to 40%/80%.
+#		  * Tweaked incendiary resistances of Reaper, Cyberdisc, and Sectopod.
+# 0.8.1: Added Psionic Prodigy soldier option, gated behind Psi-Amp.
+#		  * Made commercial aircraft available with earlier craft research.
+# 0.8.2: Gave Sectopod its own unique green laser.
+# 0.9.0: Increased sell cost of most manufacturable items to make up for reduced engineer numbers.
+#		  * Fixed some bugs in the manufacturing ruleset.
+# 0.9.1: Decreased Heavy Plasma snap shot from 42/85 to 38/80.
+#		  * Decreased Heavy Cannon shots from 40/70 & 80/112 to 32/60 & 60/100.
+#		  * Changed Auto Cannon shots from 55/55 & 33/53 to 48/48 & 30/53.
+# 0.9.2: Changed Tank Plasma powers from 65/100/155 to 80/125/195.
+#		  * Removed Plasma Hovertank auto shot.
+#		  * Changed Plasma Hovertank shots from 25/55 & 55/100 to 33/70 and 76/122.
+#		  * Changed Cannon Tank shots from 33/60 & 75/120 to 29/60 & 70/114.
+# 0.9.3: Reduced most aliens' reactions by 15, Chryssalid reactions by 20.
+#		  * Reduced Cyberdisc, Sectopod, Silacoid, and Celatid reactions by 10.
+#		  * Increased TUs by 10 of all aliens except Chryssalid and Ethereals.
+#		  * Tweaked smoke powers and blast radiuses.
+# 0.9.4: Fixed bug with alienMissions not generating alternate race for alien bases.
+#		  * Increased soldier minimum psionic strength to 10.
+#		  * Increased Elite minimum to 20 and Super Soldier minimum to 30.
+#		  * Increased Motion Scanner TU use from 1 to 5%.
+#		  * Increased research cost of late game craft (Stalker, etc.).
+#		  * Changed original (deprecated) Large Radar to have attributes closer to the Radar System.
+# 0.9.5: Fixed UFOPedia bug with Assassin.
+# 0.9.6: Added Psionic Technology research to assist player in discovering Psi Amp research.
+#		  * Reduced plasma beam cost and sell value.
+#		  * Tweaked accuracy of some craft weapons.
+#		  * Tweaked time units and accuracy of some ground weapons.
+# 0.9.7: Added new heavy plasma handob.
+# 0.9.8: Added "ALIENS_ONLY" research item which should never show in-game but allows player to
+#			use alien plasma weapons in custom battles.
+#		  * Removed UFO Power Source dependency from Flying Suit research.
+#		  * Improved code for CONTAINING_ALIENS research and expanded it to be unlocked by any corpse.
+#		  * Decreased cost of researching PSI_LAB and increased cost of researching PSI_AMP.
+#		  * Tweaked alien races slightly.
+#		  * Removed Automatic Plasma Weapons requirement from Plasma Hovertanks.
+# 0.10.0: Increased base craft radar range from 672 to 900 and increased other craft to match (+33.9%).
+#		   * Decreased range of Heracles and increased range of Assassin, Skyranger, and Interceptor.
+#		   * Several items added to LIGHTNIA tileset, also lots of graphical tweaks.
+# 0.10.1: Decreased most craft radar ranges, with the largest decreases done to the largest ranges.
+#		   * New radar ranges, from lowest to highest: 14, 16, 18, 19, 20, 21, 22, 23, 24 (x75).
+#		   * The Stalker still has +7% radar range above prior to 0.10, while Albatross has +20%.
+# 0.10.2: Fixed some missed changes with previously changing plasma hovertanks back to semi-auto:
+#		   * Plasma tank ammo now costs twice as much to manufacture.
+#		   * UFOPedia text updated to reflect the changes.
+# 0.10.3: Tier 2 aircraft (Sparrow, etc.) UFOPedia entries changed to reflect their research requirements.
+# 0.10.4: Heracles map remade; now smaller and more nuanced, it uses some new tiles and fits in the hangar.
+#		   * Heracles speed reduced from 3600 to 3300 and fuel reduced from 400 to 240.
+#		  Stalker map remade; shape changed a lot, uses some new tiles, and now also has rooftop exits.
+#		   * Stalker speed increased from 2800 to 3600 and soldier limit reduced from 16 to 12.
+#		   * Added unique geoscape sprites for the Stalker.
+#		  Starstreak switched back to Avenger-style map.
+#		   * Starstreak fuel increased from 180 to 360 and soldier/cargo changed from 1/36 to 6/18.
+# 0.10.5: Bug fixes: added Psi Amp to Psi Prodigy requirement, changed HWP A Plasma manufacture category.
+# 0.10.6: Added debug races which are just the terrorists. These are not available in normal play.
+# 0.10.7: Bug fix: Heavy Fusion Missile research now properly a requirement of various fusion tech.
+#		   * Increased Assassin speed from 4800 to 5000. It can now overtake a Terror Ship.
+# 0.11.0: Tanks are now colored by type: green=Guardian, blue=Battle, red=Assault.
+#		   * Laser and Alien Rocket tanks are now blue (alloy) color.
+# 0.11.1: Cannon has damage and fire rate increased. It has a higher damage rate than plasma autocannon.
+#		   * Greatly reduced UFO break off times for medium and up.
+# 0.11.2: Spawn nodes added to various tilesets to make sure all aliens can spawn.
+# 0.12.0: Added Large Laboratory and Large Hyper Wave Decoder. Borrowed graphics from XenoOperations.
+#		   * Increased repair rate of most advanced craft.
+#		   * Fixed some minor bugs with laser tanks.
+#		   * Optimized some manufacturing list orders.
+# 0.12.1: Greatly increased the point value of many research projects, especially late-game.
+#		   * Adjusted the costs or point values of some research projects.
+#		   * Fusion Defense defense value increased. It will now always shoot down a battleship.
+# 0.12.2: Fixed bug in which fourth tier craft did not need to be researched.
+#		   * Increased manufacture cost of Military Aircraft by 2 UFO Navigations.
+#		   * Changed Chryssalid AP/HE damageModifier from 1.5/1.0 to 1.2/1.4.
+#		   * Increased High Explosive weight from 8 to 10.
+#		   * Tweaked tank armor. Difference between guardian and assault increased a bit.
+#		   * Tweaked tier 2 tank time units. Increased tank/AE rocket rate of fire slightly.
+# 0.12.3: Increased Avenger to 3 and Starstreak to 4 weapons. They only have more than 2 in OXCE+.
+#		   * Reduced Starstreak HP to 800, increased Assassin to 1000 HP and 5000 speed.
+# 1.0.0: Changed Heavy Armor from green to brown.
+#		  * Changed Heavy Armor from -5 strength to adding 5 weight.
+#		  * Doubled craft item limits.
+# 1.0.1: Bug fixes:
+#		  * Fixed a text bug with Laboratory facilities.
+#		  * Fixed transparency on Auto-pistol Clip.
+# 1.0.2: Fixed door sound bug with Heracles map.
+#		  * Adjusted Machinegun graphic to better fit within its 1x3 space.
+#		  * Swapped Pistol graphic so that it faces the same way other guns face.
+#		  * Updated metadata credit links to link only to the forum.
+#		  * Updated and increased soldier melee accuracy.
+#			- You will have to recruit new soldiers to benefit from increased melee accuracy.
+#			- Stun Rod now has damage bonus based on soldier attributes iff you use OXCE+.
+# 1.0.3: Fixed minor bug with lift tile in LIGHTNIA tileset.
+# 1.0.4: Finally fixed problems with soldiers walking through Lightning walls.
+#		    - Inadvertently enabled soldiers to stand closer to the ship. Causes minor graphical glitch.
+# 1.0.5: Large Hyper Wave Decoder no longer available at the start of the game.
+#		  * Large Hyper Wave Decoder UFOPedia article fixed as well.
+# 1.0.6: Laser semi-auto (red/blue motif) graphical glitch (in some instances) fixed.
+# 1.1.0: Meridian fixed many of the incorrect transparency indexes on resource images.
+# 1.2.0: Fixed bug with unresearched craft showing up on Monthly Costs screen.
+#         * Added a weapon slot to the Skyranger and Stormstrike so they can function as strategic assault craft.
+#         * Gave a few minor buffs to Stormstrike to enhance its new role.
+#         * Reduced cost of Sparrow to help it compete with Stormstrike's new weapon.
+#         * Reduced score penalty for craft loss all around.
+#         * Migrated soldiers and items on game start to the Custodian.
+#         * First Aid Kit now heals three fatal wounds at once, but may only be used once per turn.
+#         * Sound effect Easter egg for Easter 4/21/2019.
+#         * A few other minor Easter eggs--mostly graphics, nothing game-changing.
+# 1.2.1: UFOPedia bug fix (Rocket Launcher).
+# 1.2.2: Fixed certain items not announcing they can be manufactured: Plasma Hovertanks, Fusion Rocket.
+# 1.2.3: Added back doors to Custodian; fixed issue with soldiers being unable to deploy from both sides of exit.
+# 1.3.0: Added multiple new types of grenade, as well as some new types of craft missile.
+#         * Added many UFO variations based on Luke's UFOs mod.
+#            - Abductors now carry Alien Entertainment
+#            - Alien Habitat is occasionally found on UFOs and can now be researched
+#         * Appearance of a race (e.g. mutons) no longer random but happens on a specific month.
+#         * Increased transport item limits.
+#         * Increased soldiers' minimum psi strength.
+#         * Decreased Laser Beam rate of fire slightly.
+#         * Added new sounds for larger explosions.
+#         * Changed the graphics for the Motion Scanner's scan (DETBORD2) and the Psi Amp.
+#         * Fixed text bugs and adjusted text in aircraft UFOPedia reports.
+#         * Added UFOPedia info: plasma clip ammunition quantity and patrol craft uptime.
+#         * Added Welcome Gift.
+# 1.3.1: Tank armor reduced, health increased.
+#         * Alien psionics adjusted.
+#         * UFOPedia info for Psionic Laboratory changed to explain psi attributes.
+#         * Removed melee accuracy from terrorists that have no melee attack.
+#         * Sectoid terror site is less scary; floater terror site is more scary.
+#         * Funding increased slightly.
+# 1.4.0: Slight buff to autoshots for all auto pistols and machineguns (including laser pulse rifle).
+#         * Significant buff to aimed shots of autocannon, heavy auto laser, plasma assault cannon.
+#         * Decreased build time of large facilities.
+#         * Adjusted alien weapon assortments. They now progress over time, and each rank has its own equip style.
+#         * Increased Battleship map size from 50x50 to 60x60. This fixes crash when Lightning lands at Battleship.
+#         * Some battlescape map fixes to reduce bugs and streamline user experience.
+#         * Removed the "jewels" from the top of alien craft. They weren't supposed to be added.
+# 1.4.1: Fixed plasma rifles not showing up in late game.
+# 1.4.2: Major balance pass:
+#         * Snakemen, Muton, and Reaper armor greatly decreased, hit points increased to compensate.
+#         * Nerfed hit points of high-armor units: cyberdisc, chryssalid, silacoid.
+#         * Reduced Ethereal hit points but increased armor to compensate.
+#         * Reduced damage of all automatic weapons. They now have five autoshots, plus faster snap/aim.
+#         * Rifle autoshots all reduced to 2 (a nerf).
+# 1.4.3: Minor bug fix to floater medic research.
+# 1.4.4: Fixed some terrain armor values which were previously causing the game to crash.
+# 1.4.5: More terrain-related crash fixes.
+# 1.4.6: Made retaliation chance of terror ship start at 100% and gradually shrink to 0% by end of first year.
+#         * Minor fix to DROPSHIP2 terrain file.
+# 1.4.7: Added missing battle corpse items to make mod work with an OXCE update. Older versions of mod no longer
+#           work with newer versions of Open Xcom Extended.
+# 1.4.7.1: More bug fixes dealing with corpses and armors. Again, older versions of Faithful no longer work with
+#           newer versions of OXCE.
+#
+#
+# 1.4.7.1 A1: scopes and red dot sights added to rifles and heavy weapons of both automatic and standard bullet, laser and plasma weapons
+# this does not make any gameplay changes its just for aesthetics. 
+# armors slightly buffed, but plasma cannons and heavy explosives are still fatal. 
+# all aircraft have had their hardpoints increased, this may make some weapon configurations overpowered, but I dont care do as you want its your game at the end of the day. 
+# starting base layout changed to be more defensible if early retaliation starts also changed starting base loadout removed the punisher and the custodian you can purchase and house those 
+# should you want too.  
+#
+# WON'T FIX: These bugs are unimportant relative to the possible damage caused to existing games by fixing them.
+#         * Explosive Rocket takes up a tenth of the inventory space of other rockets.
+#
+#
+# resource authors/sources:
+# Chiko: alien and terran plasma variants
+#		* https://openxcom.org/forum/index.php/topic,383.0.html
+#		* available via Chiko's Alternate Xcom (Chiko)
+# Shadow: variations on Chiko's designs and blue plasma bullet sprite
+#		* https://openxcom.org/forum/index.php/topic,1710.0.html
+#		* obtained via Terran Plasma Weapons (Shadow)
+# CanadianBeaver: auto-pistol, machinegun, automatic lasers, first aid kit, and a few other items
+#		* https://openxcom.org/forum/index.php?topic=4823.0
+#		* obtained via Awesome Guns (CanadianBeaver)
+#		* additional credits on mod page
+# Dioxine: large general stores and living quarters sprites, large and small living quarters maps
+#		* https://openxcom.org/forum/index.php?topic=2806.0
+#		* obtained via Improved Living Quarters + Large Stores (Dioxine)
+# Ryskeliini: heavy armor design
+#		* https://openxcom.org/forum/index.php?topic=1281.0
+#		* available via Combat Armor (Warboy1982)
+# Robin: variation of Ryskeliini's sprites
+#		* https://openxcom.org/forum/index.php/topic,2117.0.html
+#		* obtained via Armored Vest (Robin)
+# XOps: corridor and large laboratory, radar, and hyper wave decoder sprites
+#		* https://openxcom.org/forum/index.php/topic,2913.0.html
+#		* obtained via Xeno Operations (XOps)
+#
+#
+# tool authors/sources:
+# Volutar: MCDEdit
+#		* https://ufopaedia.org/index.php/MCDEdit
+#		uses: edit MCD tileset pieces and images
+# DaiShiva: MapView
+#		* http://openxcommods.weebly.com/mapview.html
+#		uses: edit battlescape maps
+# Bomb Bloke//Humax: XCOMExtractor
+#		* http://www.openxcom.com/mod/xcom-image-extractor
+#		uses: convert .PCK images into .gif format
+# Mark Tyler: mtPaint
+#		* http://mtpaint.sourceforge.net/
+#		uses: pixel editor which preserves palettes
+# Falko: SpriteConverter and PaletteConverter tools
+#		* https://falkooxc2.pythonanywhere.com/
+#		uses: make spritesheets, fix palettes, perform palette swaps
+#
+#
+# other game ideas and help:
+# Lord_Kane: Welcome Gift, various small ideas, putting pressure on me to update :)
+#
+#
+# special thanks:
+# Meridian:
+#		for always being extremely patient and helpful no matter how difficult I have been
+#		for being extremely skillful with the code and helping me when I get stuck
+#
+#
+# The Reaver of Darkness(myself): all battlescape maps in this mod unless otherwise stated; various tiles
+#		in LIGHTNIA.MCD; red/blue laser pistol and heavy laser; blue plasma auto pistol and assault cannon;
+#		smoke, fusion, and alternate incendiary rockets; conventional ammo for blaster and small launchers;
+#		additional graphics for the plasma rifle; alien explosive cannon ammo; sprites for Heracles and
+#		Stalker, Sectopod green laser graphic, Large Workshop sprite and map; tank color swaps; adjustment
+#		to AwesomeGuns' machinegun; all added bullet sprites
+
+name: "Faithful Reforged"
+version: 1.4.7.1.A1
+description: "Rebalances Vanilla X-Com and adds things to fill gaps."
+author: The Reaver of Darkness & Lord_Kane
+
+master: xcom1
+reservedSpace: 2

@@ -1,0 +1,33 @@
+costEngineer: 22500
+costScientist: 25000
+initialFunding: 9500
+performanceBonusFactor: 350
+buildInfiltrationBaseCloseToTheCountry: true
+allowCountriesToCancelAlienPact: false
+lessAliensDuringBaseDefense: true
+fixedUserOptions:
+  allowPsiStrengthImprovement: false
+  battleUFOExtenderAccuracy: true
+  weaponSelfDestruction: false
+recommendedUserOptions:
+  aggressiveRetaliation: false
+  alienBleeding: true
+  allowBuildingQueue: true
+  allowPsionicCapture: true
+  anytimePsiTraining: false
+  battleExplosionHeight: 3
+  battleInstantGrenade: false
+  bleedingIndicator: true
+  canSellLiveAliens: true
+  canTransferCraftsWhileAirborne: true
+  changeValueByMouseWheel: 10
+  craftLaunchAlways: true
+  oxceManufactureScrollSpeed: 10
+  oxceManufactureScrollSpeedWithCtrl: 100
+  oxceResearchScrollSpeed: 10
+  oxceResearchScrollSpeedWithCtrl: 100
+  psiStrengthEval: true
+  retainCorpses: true
+  showFundsOnGeoscape: true
+  showMoreStatsInInventoryView: true
+  storageLimitsEnforced: true

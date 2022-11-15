@@ -1,0 +1,153 @@
+terrains:
+  - name: XBASE
+    mapDataSets:
+      - BLANKS
+      - XBASE1
+      - XBASE2
+      - BATHWALL
+      - BATHBITZ
+    mapBlocks:
+      - name: XBASE_00
+        width: 10
+        length: 10
+      - name: XBASE_01
+        width: 10
+        length: 10
+      - name: XBASE_02
+        width: 10
+        length: 10
+      - name: XBASE_03
+        width: 10
+        length: 10
+      - name: XBASE_04
+        width: 10
+        length: 10
+      - name: XBASE_05
+        width: 10
+        length: 10
+      - name: XBASE_06
+        width: 10
+        length: 10
+      - name: XBASE_07
+        width: 10
+        length: 10
+      - name: XBASE_08
+        width: 10
+        length: 10
+      - name: XBASE_09
+        width: 10
+        length: 10
+      - name: XBASE_10
+        width: 10
+        length: 10
+      - name: XBASE_11
+        width: 10
+        length: 10
+      - name: XBASE_12
+        width: 10
+        length: 10
+      - name: XBASE_13
+        width: 10
+        length: 10
+      - name: XBASE_14
+        width: 10
+        length: 10
+      - name: XBASE_15
+        width: 10
+        length: 10
+      - name: XBASE_16
+        width: 10
+        length: 10
+      - name: XBASE_17
+        width: 10
+        length: 10
+      - name: XBASE_18
+        width: 10
+        length: 10
+      - name: XBASE_19
+        width: 10
+        length: 10
+      - name: XBASE_20
+        width: 10
+        length: 10
+      - name: RBASE_00
+        width: 10
+        length: 10
+      - name: RBASE_01
+        width: 10
+        length: 10
+      - name: RBASE_02
+        width: 10
+        length: 10
+      - name: RBASE_03
+        width: 10
+        length: 10
+      - name: RBASE_12
+        width: 10
+        length: 10
+      - name: RBASE_13
+        width: 10
+        length: 10
+      - name: RBASE_14
+        width: 10
+        length: 10
+      - name: RBASE_15
+        width: 10
+        length: 10
+      - name: RBASE_16
+        width: 10
+        length: 10
+      - name: RBASE_17
+        width: 10
+        length: 10
+      - name: RBASE_18
+        width: 10
+        length: 10
+      - name: RBASE_19
+        width: 10
+        length: 10
+      - name: RBASE_20
+        width: 10
+        length: 10
+      - name: RBASE_100
+        width: 10 
+        length: 10
+      - name: XBASS_01
+        width: 10
+        length: 10
+      - name: XBASS_02
+        width: 10
+        length: 10
+      - name: XBASS_03
+        width: 10
+        length: 10
+      - name: XBASS_04
+        width: 10
+        length: 10
+      - name: XBASS_05
+        width: 10
+        length: 10
+      - name: XOPSXBASE02
+        width: 10
+        length: 10
+      - name: XOPSXBASE03
+        width: 10
+        length: 10
+      - name: XOPSXBASE04
+        width: 10
+        length: 10
+      - name: XOPSXBASE05
+        width: 10
+        length: 10
+      - name: XOPSXBASE16
+        width: 10
+        length: 10
+      - name: XOPSXBASE17
+        width: 10
+        length: 10
+      - name: XOPSXBASE18
+        width: 10
+        length: 10
+      - name: XOPSXBASE19
+        width: 10
+        length: 10

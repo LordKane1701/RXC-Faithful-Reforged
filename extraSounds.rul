@@ -1,0 +1,12 @@
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      300: Resources/AwesomeGuns.Laser/Fire1.ogg
+      301: Resources/AwesomeGuns.Laser/Fire2.ogg
+      302: Resources/AwesomeGuns.Laser/Fire3.ogg
+      303: Resources/AwesomeGuns.Laser/Hit.ogg
+      304: Resources/AwesomeGuns.Laser/FireT.ogg
+      305: Resources/XComFiles/WeaponSounds/LaserPistolFire.wav
+      306: Resources/XComFiles/WeaponSounds/PlasmaHeavyFire.wav
+      307: Resources/AwesomeGuns/hit.wav
+      308: Resources/HQ Sounds/geo_planedestroyed.ogg

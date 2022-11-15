@@ -1,0 +1,327 @@
+ufos:
+  - type: STR_SMALL_SCOUT
+    size: STR_VERY_SMALL
+    sprite: 0
+    damageMax: 50
+    speedMax: 2200
+    accel: 12
+    power: 0
+    range: 0
+    score: 50
+    reload: 56
+    breakOffTime: 200
+    battlescapeTerrainData:
+      name: UFO1A
+      mapDataSets:
+        - BLANKS
+        - UFO1
+      mapBlocks:
+        - name: UFO1A
+          width: 10
+          length: 10
+  - type: STR_MEDIUM_SCOUT
+    size: STR_SMALL
+    sprite: 1
+    damageMax: 180
+    speedMax: 2400
+    accel: 9
+    power: 20
+    range: 30
+    score: 75
+    reload: 56
+    breakOffTime: 250
+    battlescapeTerrainData:
+      name: UFO_110
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - UFOL83
+      mapBlocks:
+        - name: ox_ufo1
+          width: 10
+          length: 10
+        - name: ox_ufo1b
+          width: 10
+          length: 10
+        - name: ox_ufo1c
+          width: 10
+          length: 10
+        - name: ox_ufo1d
+          width: 10
+          length: 10
+        - name: ox_ufo1e
+          width: 10
+          length: 10
+        - name: ox_ufo1f
+          width: 10
+          length: 10
+        - name: ox_ufo1g
+          width: 10
+          length: 10
+  - type: STR_LARGE_SCOUT
+    size: STR_SMALL
+    sprite: 2
+    damageMax: 250
+    speedMax: 2700
+    accel: 9
+    power: 20
+    range: 45
+    score: 125
+    reload: 48
+    breakOffTime: 300
+    battlescapeTerrainData:
+      name: UFO_120
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - UFOL83
+      mapBlocks:
+        - name: ox_ufo2a
+          width: 20
+          length: 20
+        - name: ox_ufo2b
+          width: 20
+          length: 20
+        - name: ox_ufo2c
+          width: 20
+          length: 20
+        - name: ox_ufo2d
+          width: 20
+          length: 20
+        - name: ox_ufo2e
+          width: 20
+          length: 20
+        - name: ox_ufo2f
+          width: 20
+          length: 20
+        - name: ox_ufo2g
+          width: 20
+          length: 20
+        - name: ox_ufo2h
+          width: 20
+          length: 20
+        - name: ox_ufo2i
+          width: 20
+          length: 20
+        - name: ox_ufo2j
+          width: 20
+          length: 20
+        - name: ox_ufo2k
+          width: 20
+          length: 20
+        - name: ox_ufo2l
+          width: 20
+          length: 20
+  - type: STR_HARVESTER
+    size: STR_MEDIUM_UC
+    sprite: 3
+    damageMax: 900
+    speedMax: 4000
+    accel: 8
+    power: 40
+    range: 48
+    score: 300
+    reload: 48
+    breakOffTime: 400
+    battlescapeTerrainData:
+      name: UFO_130
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_DISEC3
+        - U_BITS
+        - UFOL83
+      mapBlocks:
+        - name: ox_ufo3a
+          width: 20
+          length: 20
+        - name: ox_ufo3b
+          width: 20
+          length: 20
+        - name: ox_ufo3c
+          width: 20
+          length: 20
+        - name: ox_ufo3d
+          width: 20
+          length: 20
+        - name: ox_ufo3e
+          width: 20
+          length: 20
+        - name: ox_ufo3f
+          width: 20
+          length: 20
+        - name: ox_ufo3g
+          width: 20
+          length: 20
+        - name: ox_ufo3h
+          width: 20
+          length: 20
+        - name: ox_ufo3i
+          width: 20
+          length: 20
+        - name: ox_ufo3j
+          width: 20
+          length: 20
+        - name: ox_ufo3k
+          width: 20
+          length: 20
+  - type: STR_ABDUCTOR
+    size: STR_MEDIUM_UC
+    sprite: 4
+    damageMax: 750
+    speedMax: 4300
+    accel: 8
+    power: 40
+    range: 40
+    score: 250
+    reload: 32
+    breakOffTime: 350
+    battlescapeTerrainData:
+      name: UFO_140
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_OPER2
+        - U_BITS
+        - UFOL83
+        - U_PODS
+      mapBlocks:
+        - name: ox_ufo4a
+          width: 20
+          length: 20
+        - name: ox_ufo4b
+          width: 20
+          length: 20
+        - name: ox_ufo4c
+          width: 20
+          length: 20
+        - name: ox_ufo4d
+          width: 20
+          length: 20
+        - name: ox_ufo4e
+          width: 20
+          length: 20
+        - name: ox_ufo4f
+          width: 20
+          length: 20
+        - name: ox_ufo4g
+          width: 20
+          length: 20
+        - name: ox_ufo4h
+          width: 20
+          length: 20
+        - name: ox_ufo4i
+          width: 20
+          length: 20
+        - name: ox_ufo4j
+          width: 20
+          length: 20
+  - type: STR_TERROR_SHIP
+    size: STR_LARGE
+    sprite: 5
+    damageMax: 1800
+    speedMax: 4800
+    accel: 6
+    power: 120
+    range: 56
+    score: 500
+    reload: 24
+    breakOffTime: 600
+    battlescapeTerrainData:
+      name: UFO_150
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_PODS
+        - U_BITS
+        - UFOL83
+      mapBlocks:
+        - name: ox_ufo5a
+          width: 30
+          length: 20
+        - name: ox_ufo5b
+          width: 20
+          length: 30
+        - name: ox_ufo5c
+          width: 30
+          length: 20
+        - name: ox_ufo5d
+          width: 20
+          length: 30
+        - name: ox_ufo5e
+          width: 30
+          length: 20
+        - name: ox_ufo5f
+          width: 20
+          length: 30
+        - name: ox_ufo5g
+          width: 30
+          length: 20
+        - name: ox_ufo5h
+          width: 20
+          length: 30
+  - type: STR_BATTLESHIP
+    size: STR_VERY_LARGE
+    sprite: 6
+    damageMax: 6000
+    speedMax: 5000
+    accel: 6
+    power: 140
+    range: 65
+    score: 700
+    reload: 24
+    breakOffTime: 750
+    battlescapeTerrainData:
+      name: UFO_160
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_PODS
+        - U_BITS
+        - U_DISEC3
+        - U_BASE
+      mapBlocks:
+        - name: UFO_160
+          width: 30
+          length: 30
+  - type: STR_SUPPLY_SHIP
+    size: STR_LARGE
+    sprite: 7
+    damageMax: 3300
+    speedMax: 3200
+    accel: 6
+    power: 60
+    range: 50
+    score: 400
+    reload: 24
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: UFO_170
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_DISEC2
+        - U_BITS
+        - U_BASE
+      mapBlocks:
+        - name: ox_ufo7a
+          width: 30
+          length: 20
+        - name: ox_ufo7b
+          width: 20
+          length: 30
+        - name: ox_ufo7c
+          width: 30
+          length: 20
+        - name: ox_ufo7d
+          width: 20
+          length: 30

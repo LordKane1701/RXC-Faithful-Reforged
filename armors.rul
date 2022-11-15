@@ -1,0 +1,591 @@
+armors:
+  - type: STR_BREACHER_UP
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0
+    corpseBattle:
+      - STR_CORPSE
+    stats:
+      stamina: 10
+      health: 8
+      reactions: 20
+      melee: 15
+    loftempsSet: [ 4 ]
+  - type: STR_RANGER_UP
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0
+    corpseBattle:
+      - STR_CORPSE
+    stats:
+      tu: 5
+      stamina: 15
+      firing: 10
+      throwing: 10
+      strength: 5
+    loftempsSet: [ 4 ]
+  - type: STR_SNIPER_UP
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0
+    corpseBattle:
+      - STR_CORPSE
+    stats:
+      reactions: 10
+      firing: 20
+    loftempsSet: [ 4 ]
+  - type: STR_HEAVY_UP
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0
+    corpseBattle:
+      - STR_CORPSE
+    stats:
+      health: 5
+      reactions: -15
+      firing: 10
+      throwing: 10
+      strength: 10
+    loftempsSet: [ 4 ]
+  - type: STR_ELITE_UP
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0
+    corpseBattle:
+      - STR_CORPSE
+    stats:
+      tu: 3
+      stamina: 10
+      health: 5
+      bravery: 20
+      reactions: 10
+      firing: 10
+      throwing: 10
+      strength: 7
+      melee: 10
+    loftempsSet: [ 4 ]
+  - type: STR_PSIONIC_PRODIGY_UP
+    spriteSheet: XCOM_1.PCK
+    spriteInv: MAN_0
+    corpseBattle:
+      - STR_CORPSE
+    stats:
+      psiStrength: 40
+      psiSkill: 8
+    loftempsSet: [ 4 ]
+  - type: STR_SUPER_SOLDIER_UP
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0
+    corpseBattle:
+      - STR_CORPSE
+    stats:
+      tu: 5
+      stamina: 20
+      health: 10
+      bravery: 20
+      reactions: 20
+      firing: 20
+      throwing: 20
+      strength: 10
+      melee: 20
+    loftempsSet: [ 4 ]
+  - type: TANK_ARMOR_GUARDIAN
+    spriteSheet: GTANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - TANK_CORPSE_1
+      - TANK_CORPSE_2
+      - TANK_CORPSE_3
+      - TANK_CORPSE_4
+    frontArmor: 100
+    sideArmor: 80
+    rearArmor: 80
+    underArmor: 60
+    drawingRoutine: 2
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.5
+      - 0.4
+      - 0.75
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: TANK_ARMOR
+    spriteSheet: BTANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - TANK_CORPSE_1
+      - TANK_CORPSE_2
+      - TANK_CORPSE_3
+      - TANK_CORPSE_4
+    frontArmor: 90
+    sideArmor: 65
+    rearArmor: 50
+    underArmor: 50
+    drawingRoutine: 2
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.4
+      - 0.4
+      - 0.75
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: TANK_ARMOR_ASSAULT
+    spriteSheet: ATANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - TANK_CORPSE_1
+      - TANK_CORPSE_2
+      - TANK_CORPSE_3
+      - TANK_CORPSE_4
+    frontArmor: 100
+    sideArmor: 90
+    rearArmor: 30
+    underArmor: 40
+    drawingRoutine: 2
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.3
+      - 0.4
+      - 0.75
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: TANK_ARMOR_GUARDIAN_ALLOY
+    spriteSheet: GATANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - CorpseAlloyTank_1
+      - CorpseAlloyTank_2
+      - CorpseAlloyTank_3
+      - CorpseAlloyTank_4
+    frontArmor: 110
+    sideArmor: 100
+    rearArmor: 90
+    underArmor: 80
+    drawingRoutine: 2
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.4
+      - 0.4
+      - 0.75
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: TANK_ARMOR_BATTLE_ALLOY
+    spriteSheet: BATANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - CorpseAlloyTank_1
+      - CorpseAlloyTank_2
+      - CorpseAlloyTank_3
+      - CorpseAlloyTank_4
+    frontArmor: 95
+    sideArmor: 80
+    rearArmor: 65
+    underArmor: 65
+    drawingRoutine: 2
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.3
+      - 0.4
+      - 0.75
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: TANK_ARMOR_ASSAULT_ALLOY
+    spriteSheet: AATANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - CorpseAlloyTank_1
+      - CorpseAlloyTank_2
+      - CorpseAlloyTank_3
+      - CorpseAlloyTank_4
+    frontArmor: 80
+    sideArmor: 60
+    rearArmor: 40
+    underArmor: 50
+    drawingRoutine: 2
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.2
+      - 0.4
+      - 0.75
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: HOVERTANK_ARMOR_GUARDIAN
+    spriteSheet: GTANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - CorpseGuardianHover_1
+      - CorpseGuardianHover_2
+      - CorpseGuardianHover_3
+      - CorpseGuardianHover_4
+    frontArmor: 140
+    sideArmor: 135
+    rearArmor: 130
+    underArmor: 100
+    drawingRoutine: 2
+    constantAnimation: true
+    movementType: 1
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.5
+      - 0.4
+      - 0.75
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: HOVERTANK_ARMOR
+    spriteSheet: BTANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - CorpseBattleHover_1
+      - CorpseBattleHover_2
+      - CorpseBattleHover_3
+      - CorpseBattleHover_4
+    frontArmor: 120
+    sideArmor: 110
+    rearArmor: 100
+    underArmor: 80
+    drawingRoutine: 2
+    constantAnimation: true
+    movementType: 1
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.4
+      - 0.4
+      - 0.75
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: HOVERTANK_ARMOR_ASSAULT
+    spriteSheet: ATANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - CorpseAssaultHover_1
+      - CorpseAssaultHover_2
+      - CorpseAssaultHover_3
+      - CorpseAssaultHover_4
+    frontArmor: 100
+    sideArmor: 85
+    rearArmor: 70
+    underArmor: 60
+    drawingRoutine: 2
+    constantAnimation: true
+    movementType: 1
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.3
+      - 0.4
+      - 0.75
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: STR_LIGHT_ARMOR_UC
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0
+    corpseBattle:
+      - STR_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 4 ]
+  - type: STR_HEAVY_ARMOR_UC
+    spriteSheet: XCOM_4.PCK
+    spriteInv: MAN_4
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_CORPSE_HEAVY_ARMOR
+    storeItem: STR_HEAVY_ARMOR
+    weight: 2
+    frontArmor: 35
+    sideArmor: 20
+    rearArmor: 17
+    underArmor: 14
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.3
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: STR_PERSONAL_ARMOR_UC
+    frontArmor: 95
+    sideArmor: 55
+    rearArmor: 75
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.6
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.1
+      - 1.0
+  - type: STR_POWER_SUIT_UC
+    stats:
+      tu: 10
+      strength: 20
+    frontArmor: 110
+    sideArmor: 95
+    rearArmor: 80
+    underArmor: 70
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.0
+  - type: STR_FLYING_SUIT_UC
+    stats:
+      tu: 10
+      firing: 10
+    frontArmor: 105
+    sideArmor: 80
+    rearArmor: 70
+    underArmor: 60
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.0
+  - type: CYBERDISC_ARMOR
+    damageModifier:
+      - 1.0
+      - 1.2
+      - 0.4
+      - 0.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+  - type: REAPER_ARMOR
+    frontArmor: 4
+    sideArmor: 4
+    rearArmor: 4
+    underArmor: 3
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.2
+      - 0.6
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+  - type: SECTOPOD_ARMOR
+    underArmor: 45
+    damageModifier:
+      - 1.0
+      - 1.4
+      - 0.2
+      - 0.4
+      - 1.5
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+  - type: SNAKEMAN_ARMOR0
+    frontArmor: 6
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 6
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 0.7
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+  - type: SNAKEMAN_ARMOR1
+    frontArmor: 7
+    sideArmor: 11
+    rearArmor: 9
+    underArmor: 7
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 0.7
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+  - type: SNAKEMAN_ARMOR2
+    frontArmor: 8
+    sideArmor: 12
+    rearArmor: 10
+    underArmor: 8
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 0.7
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+  - type: MUTON_ARMOR0
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 3
+  - type: MUTON_ARMOR1
+    frontArmor: 6
+    sideArmor: 6
+    rearArmor: 6
+    underArmor: 4
+  - type: MUTON_ARMOR2
+    frontArmor: 7
+    sideArmor: 7
+    rearArmor: 7
+    underArmor: 5
+  - type: ETHEREAL_ARMOR0
+    frontArmor: 40
+    sideArmor: 40
+    rearArmor: 40
+    underArmor: 40
+    damageModifier:
+      - 1.0
+      - 1.4
+      - 0.7
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.0
+  - type: ETHEREAL_ARMOR1
+    frontArmor: 44
+    sideArmor: 44
+    rearArmor: 44
+    underArmor: 44
+    damageModifier:
+      - 1.0
+      - 1.4
+      - 0.7
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.0
+  - type: ETHEREAL_ARMOR2
+    frontArmor: 48
+    sideArmor: 48
+    rearArmor: 48
+    underArmor: 48
+    damageModifier:
+      - 1.0
+      - 1.4
+      - 0.7
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.0
+  - type: CHRYSSALID_ARMOR
+    damageModifier:
+      - 1.0
+      - 1.2
+      - 0.8
+      - 1.4
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 0.0

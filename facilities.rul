@@ -1,0 +1,336 @@
+facilities:
+  - type: STR_CORRIDOR
+    spriteShape: 0
+    spriteFacility: 548
+    buildCost: 25000
+    buildTime: 2
+    monthlyCost: 1500
+    mapName: RBASE_20
+    canBeBuiltOver: true
+  - type: STR_EMPTY_ROOM
+    spriteShape: 1
+    spriteFacility: 549
+    buildCost: 50000
+    buildTime: 8
+    monthlyCost: 2000
+    mapName: RBASE_100
+    canBeBuiltOver: true
+    refundValue: 40000
+  - type: STR_LIVING_QUARTERS
+    monthlyCost: 20000
+    personnel: 25
+    mapName: XBASS_01
+    sickBayRelativeBonus: 1.07
+    buildOverFacilities:
+      - STR_CORRIDOR
+      - STR_EMPTY_ROOM
+  - type: STR_LIVING_QUARTERS_LARGE
+    spriteShape: 408
+    spriteFacility: 408
+    size: 2
+    buildCost: 2000000
+    buildTime: 24
+    monthlyCost: 100000
+    personnel: 125
+    mapName: XBASS_02
+    sickBayRelativeBonus: 1.15
+    buildOverFacilities:
+      - STR_CORRIDOR
+      - STR_EMPTY_ROOM
+  - type: STR_LABORATORY
+    monthlyCost: 60000
+    labs: 25
+    buildOverFacilities:
+      - STR_CORRIDOR
+      - STR_EMPTY_ROOM
+    sickBayRelativeBonus: 1.09
+  - type: STR_LABORATORY_LARGE
+    spriteShape: 416
+    spriteFacility: 416
+    size: 2
+    buildCost: 3750000
+    buildTime: 38
+    monthlyCost: 300000
+    labs: 125
+    mapName: RBASE_12
+    sickBayAbsoluteBonus: 25.0
+    buildOverFacilities:
+      - STR_CORRIDOR
+      - STR_EMPTY_ROOM
+  - type: STR_WORKSHOP
+    monthlyCost: 70000
+    workshops: 25
+    buildOverFacilities:
+      - STR_CORRIDOR
+      - STR_EMPTY_ROOM
+  - type: STR_WORKSHOP_LARGE
+    spriteShape: 524
+    spriteFacility: 524
+    size: 2
+    buildCost: 4000000
+    buildTime: 48
+    monthlyCost: 350000
+    workshops: 125
+    mapName: RBASE_12
+    buildOverFacilities:
+      - STR_CORRIDOR
+      - STR_EMPTY_ROOM
+  - type: STR_SMALL_RADAR_SYSTEM
+    monthlyCost: 20000
+    radarRange: 1800
+    radarChance: 20
+    sightRange: 1800
+    sightChance: 20
+    buildOverFacilities:
+      - STR_CORRIDOR
+      - STR_EMPTY_ROOM
+  - type: STR_LARGE_RADAR_SYSTEM
+    monthlyCost: 30000
+    radarRange: 2100
+    radarChance: 30
+    requires:
+      - STR_ALIENS_ONLY
+  - type: STR_LARGE_RADAR_FACILITY
+    spriteShape: 432
+    spriteFacility: 432
+    size: 2
+    buildCost: 2000000
+    buildTime: 26
+    monthlyCost: 80000
+    radarRange: 2700
+    radarChance: 40
+    sightRange: 2700
+    sightChance: 40
+    mapName: RBASE_16
+    buildOverFacilities:
+      - STR_CORRIDOR
+      - STR_EMPTY_ROOM
+  - type: STR_GENERAL_STORES
+    monthlyCost: 10000
+    storage: 175
+    buildOverFacilities:
+      - STR_CORRIDOR
+      - STR_EMPTY_ROOM
+  - type: STR_GENERAL_STORES_LARGE
+    spriteShape: 400
+    spriteFacility: 400
+    size: 2
+    buildCost: 750000
+    buildTime: 14
+    monthlyCost: 50000
+    storage: 575
+    mapName: RBASE_00
+    buildOverFacilities:
+      - STR_CORRIDOR
+      - STR_EMPTY_ROOM
+  - type: STR_ALIEN_CONTAINMENT
+    requires:
+      - STR_ALIEN_CONTAINMENT
+    buildCost: 800000
+    buildTime: 14
+    monthlyCost: 120000
+    buildOverFacilities:
+      - STR_CORRIDOR
+      - STR_EMPTY_ROOM
+  - type: STR_MISSILE_DEFENSES
+    monthlyCost: 10000
+    defense: 1000
+    hitRatio: 80
+    buildOverFacilities:
+      - STR_CORRIDOR
+      - STR_EMPTY_ROOM
+# Chance to shoot down terror ship with 2 Missile Defenses: 43.5%
+# Chance to shoot down terror ship with 3 Missile Defenses: 77.1%
+# Chance to shoot down terror ship with 4 Missile Defenses: 92.2%
+# Chance to shoot down terror ship with 5 Missile Defenses: 97.6%
+  - type: STR_LASER_DEFENSES
+    buildCost: 600000
+    monthlyCost: 30000
+    hitRatio: 95
+    defense: 1200
+    buildOverFacilities:
+      - STR_CORRIDOR
+      - STR_EMPTY_ROOM
+      - STR_MISSILE_DEFENSES
+# Chance to shoot down terror ship with 2 Laser Defenses: 79.0%
+# Chance to shoot down terror ship with 3 Laser Defenses: 97.6%
+# Chance to shoot down battleship with 5 Laser Defenses: 38.7%
+  - type: STR_PLASMA_DEFENSES
+    buildCost: 2400000
+    monthlyCost: 120000
+    defense: 2400
+    buildOverFacilities:
+      - STR_CORRIDOR
+      - STR_EMPTY_ROOM
+      - STR_MISSILE_DEFENSES
+      - STR_LASER_DEFENSES
+# Chance to shoot down terror ship with 1 Plasma Defense: 52.5%
+# Chance to shoot down terror ship with 2 Plasma Defenses: 80.5%
+# Chance to shoot down terror ship with 3 Plasma Defenses: 92.6%
+# Chance to shoot down battleship ship with 2 Plasma Defenses: 12.3%
+# Chance to shoot down battleship ship with 3 Plasma Defenses: 36.8%
+# Chance to shoot down battleship ship with 4 Plasma Defenses: 60.0%
+# Chance to shoot down battleship ship with 5 Plasma Defenses: 77.0%
+  - type: STR_FUSION_BALL_DEFENSES
+    buildCost: 40000000
+    buildTime: 42
+    monthlyCost: 2000000
+    defense: 12000
+    hitRatio: 100
+    buildOverFacilities:
+      - STR_CORRIDOR
+      - STR_EMPTY_ROOM
+      - STR_MISSILE_DEFENSES
+      - STR_LASER_DEFENSES
+      - STR_PLASMA_DEFENSES
+# Chance to shoot down battleship with 1 Fusion Defense: 100%
+  - type: STR_GRAV_SHIELD
+    buildCost: 6000000
+    monthlyCost: 150000
+    mapName: XBASE_12
+    buildOverFacilities:
+      - STR_CORRIDOR
+      - STR_EMPTY_ROOM
+  - type: STR_HYPER_WAVE_DECODER
+    hyper: true
+    buildCost: 2800000
+    monthlyCost: 120000
+    radarRange: 2400
+    radarChance: 100
+    sightRange: 2400
+    sightChance: 100
+    buildOverFacilities:
+      - STR_CORRIDOR
+      - STR_EMPTY_ROOM
+      - STR_SMALL_RADAR_SYSTEM
+  - type: STR_HYPER_WAVE_DECODER_LARGE
+    requires:
+      - STR_HYPER_WAVE_DECODER
+    hyper: true
+    spriteShape: 440
+    spriteFacility: 440
+    size: 2
+    buildCost: 11200000
+    buildTime: 38
+    monthlyCost: 480000
+    radarRange: 3600
+    radarChance: 100
+    sightRange: 3600
+    sightChance: 100
+    mapName: RBASE_12
+    buildOverFacilities:
+      - STR_CORRIDOR
+      - STR_EMPTY_ROOM
+      - STR_LARGE_RADAR_FACILITY
+  - type: STR_KB_FOUNDRY
+    requires:
+     - STR_ALIENS_ONLY
+    spriteShape: 1 
+    spriteFacility: 32
+    storage: 9999
+    mapName: XBASE_15
+    buildCostItems:
+      STR_AE_HIGH_EXPLOSIVE:
+       refund: 15
+      STR_AE_PROXIMITY_GRENADE:
+       refund: 15
+      STR_ALIEN_ALLOYS:
+       refund: 15
+      STR_ALIEN_ENTERTAINMENT:
+       refund: 15
+      STR_ALIEN_FOOD:
+       refund: 15
+      STR_ALIEN_GRENADE:
+       refund: 15
+      STR_ALIEN_HABITAT:
+       refund: 15
+      STR_BLASTER_BOMB:
+       refund: 15
+      STR_BLASTER_HE_BOMB:
+       refund: 15
+      STR_BLASTER_I_BOMB:
+       refund: 15
+      STR_BLASTER_LAUNCHER:
+       refund: 15
+      STR_BLASTER_STUN_BOMB:
+       refund: 15
+      STR_ELECTRO_FLARE:
+       refund: 15
+      STR_ELERIUM_115:
+       refund: 15
+      STR_ETHEREAL_CORPSE:
+       refund: 15
+      STR_EXAMINATION_ROOM:
+       refund: 15
+      STR_FLYING_SUIT:
+       refund: 15
+      STR_FUSION_HIGH_EXPLOSIVE:
+       refund: 15
+      STR_GRENADE:
+       refund: 15
+      STR_HEAVY_AUTO_LASER:
+       refund: 15
+      STR_HEAVY_LASER:
+       refund: 15
+      STR_HEAVY_PLASMA:
+       refund: 15
+      STR_HEAVY_PLASMA_CLIP:
+       refund: 15
+      STR_HE_BOMB:
+       refund: 15
+      STR_HIGH_EXPLOSIVE:
+       refund: 15
+      STR_INCENDIARY_BOMB:
+       refund: 15
+      STR_LASER_AUTO_PISTOL:
+       refund: 15
+      STR_LASER_PISTOL:
+       refund: 15
+      STR_LASER_PULSE_RIFLE:
+       refund: 15
+      STR_LASER_RIFLE:
+       refund: 15
+      STR_MEDI_KIT:
+       refund: 15
+      STR_MIND_PROBE:
+       refund: 15
+      STR_MOTION_SCANNER:
+       refund: 15
+      STR_PERSONAL_ARMOR:
+       refund: 15
+      STR_PLASMA_PISTOL:
+       refund: 15
+      STR_PLASMA_PISTOL_CLIP:
+       refund: 15
+      STR_PLASMA_RIFLE:
+       refund: 15
+      STR_PLASMA_RIFLE_CLIP:
+       refund: 15
+      STR_POWER_SUIT:
+       refund: 15
+      STR_PROXIMITY_GRENADE:
+       refund: 15
+      STR_PSI_AMP:
+       refund: 15
+      STR_SMALL_LAUNCHER:
+       refund: 15
+      STR_SMOKE_BOMB:
+       refund: 15
+      STR_SMOKE_GRENADE:
+       refund: 15
+      STR_STUN_BOMB:
+       refund: 15
+      STR_STUN_GRENADE:
+       refund: 15
+      STR_STUN_PROXIMITY_GRENADE:
+       refund: 15
+      STR_STUN_ROD:
+       refund: 15
+      STR_UFO_CONSTRUCTION:
+       refund: 15
+      STR_UFO_NAVIGATION:
+       refund: 15
+      STR_UFO_POWER_SOURCE:
+       refund: 15
+      STR_WELCOME_GIFT:
+       refund: 15

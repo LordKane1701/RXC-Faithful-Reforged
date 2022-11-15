@@ -1,0 +1,314 @@
+alienMissions:
+  - delete: STR_ALIEN_RESEARCH
+  - delete: STR_ALIEN_HARVEST
+  - delete: STR_ALIEN_INFILTRATION
+  - delete: STR_ALIEN_BASE
+  - delete: STR_ALIEN_TERROR
+  - delete: STR_ALIEN_RETALIATION
+  - type: STR_ALIEN_RESEARCH
+    points: 0
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      1:
+        STR_FLOATER: 100
+      2:
+        STR_SECTOID: 20
+        STR_SNAKEMAN: 60
+        STR_FLOATER: 20
+      4:
+        STR_SECTOID: 15
+        STR_SNAKEMAN: 10
+        STR_MUTON: 20
+        STR_FLOATER: 15
+        STR_MIXED_OPERATIONS: 40
+      6:
+        STR_SECTOID: 35
+        STR_SNAKEMAN: 10
+        STR_FLOATER: 35
+        STR_MIXED_OPERATIONS: 20
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 9000
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P2
+        timer: 7800
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P4
+        timer: 9000
+      - ufo: STR_HARVESTER
+        count: 1
+        trajectory: P4
+        timer: 9000
+  - type: STR_ALIEN_HARVEST
+    points: 30
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      1:
+        STR_FLOATER: 100
+      2:
+        STR_SNAKEMAN: 100
+      4:
+        STR_SECTOID: 5
+        STR_SNAKEMAN: 30
+        STR_MUTON: 20
+        STR_FLOATER: 5
+        STR_MIXED_OPERATIONS: 40
+      6:
+        STR_SECTOID: 20
+        STR_SNAKEMAN: 40
+        STR_FLOATER: 20
+        STR_MIXED_OPERATIONS: 20
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 7800
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P2
+        timer: 7800
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P2
+        timer: 6000
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 7800
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P3
+        timer: 9000
+      - ufo: STR_HARVESTER
+        count: 1
+        trajectory: P4
+        timer: 3000
+      - ufo: STR_HARVESTER
+        count: 1
+        trajectory: P4
+        timer: 750
+      - ufo: STR_HARVESTER
+        count: 1
+        trajectory: P2
+        timer: 1500
+  - type: STR_ALIEN_INFILTRATION
+    points: 150
+    objective: 1    
+    siteType: STR_ALIEN_BASE_ASSAULT
+    spawnZone: 4
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      1:
+        STR_SECTOID: 50
+        STR_FLOATER: 50
+      2:
+        STR_SECTOID: 100
+      4:
+        STR_SECTOID: 10
+        STR_MUTON: 90
+      6:
+        STR_SECTOID: 5
+        STR_ETHEREAL: 80
+        STR_MUTON: 10
+        STR_MIXED_OPERATIONS: 5
+      9:
+        STR_SECTOID: 30
+        STR_ETHEREAL: 40
+        STR_MUTON: 20
+        STR_MIXED_OPERATIONS: 10
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 16500
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P1
+        timer: 15000
+      - ufo: STR_ABDUCTOR
+        count: 1
+        trajectory: P6
+        timer: 13800
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P7
+        timer: 9000
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P7
+        timer: 60
+      - ufo: STR_TERROR_SHIP
+        count: 1
+        trajectory: P7
+        timer: 60
+        interruptPercentage: 100
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P7
+        timer: 60
+      - ufo: STR_ABDUCTOR
+        count: 2
+        trajectory: P7
+        timer: 60
+        interruptPercentage: 40
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 300
+  - type: STR_ALIEN_BASE
+    points: 50
+    objective: 2
+    siteType: STR_ALIEN_BASE_ASSAULT
+    spawnZone: 4
+    raceWeights:
+      0:
+        STR_SECTOID_BASE: 50
+        STR_FLOATER_BASE: 50
+      1:
+        STR_FLOATER_BASE: 100
+      2:
+        STR_SNAKEMAN_BASE: 100
+      4:
+        STR_FLOATER_BASE: 20
+        STR_SNAKEMAN_BASE: 40
+        STR_MUTON_BASE: 20
+        STR_MIXED_OPERATIONS: 20
+      6:
+        STR_FLOATER_BASE: 50
+        STR_SNAKEMAN_BASE: 10
+        STR_ETHEREAL_BASE: 20
+        STR_MIXED_OPERATIONS: 20
+      9:
+        STR_FLOATER_BASE: 40
+        STR_SNAKEMAN_BASE: 55
+        STR_MIXED_OPERATIONS: 5
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P1
+        timer: 13500
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P5
+        timer: 15000
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P5
+        timer: 60
+      - ufo: STR_SUPPLY_SHIP
+        count: 2
+        trajectory: P5
+        timer: 60
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P6
+        timer: 60
+  - type: STR_ALIEN_TERROR
+    points: 10
+    objective: 3
+    spawnZone: 3
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      1:
+        STR_FLOATER: 100
+      2:
+        STR_SNAKEMAN: 100
+      4:
+        STR_MUTON: 90
+        STR_MIXED_TERROR: 10
+      6:
+        STR_ETHEREAL: 60
+        STR_MIXED_TERROR: 40
+      9:
+        STR_SECTOID: 10
+        STR_SNAKEMAN: 15
+        STR_ETHEREAL: 10
+        STR_MUTON: 10
+        STR_FLOATER: 5
+        STR_MIXED_TERROR: 50
+    waves:
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P1
+        timer: 15000
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P1
+        timer: 9600
+      - ufo: STR_TERROR_SHIP
+        count: 1
+        trajectory: P0
+        timer: 12000
+      - ufo: STR_TERROR_SHIP
+        count: 1
+        trajectory: P7
+        timer: 9000
+        objective: true
+  - type: STR_ALIEN_RETALIATION
+    points: 0
+    objective: 4
+    spawnUfo: STR_BATTLESHIP
+    raceWeights:
+      0:
+        STR_MIXED_TERROR: 100
+    missionWeights:
+      0: 0
+      3: 25
+      6: 50
+      9: 75
+      12: 100
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_MEDIUM_SCOUT
+        count: 2
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_LARGE_SCOUT
+        count: 3
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_BATTLESHIP
+        count: 2
+        trajectory: P8
+        timer: 3000
+  - type: STR_ALIEN_RETALIATION_2
+    points: 0
+    objective: 4
+    spawnUfo: STR_TERROR_SHIP
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+    missionWeights:
+      0: 100
+      3: 75
+      6: 50
+      9: 25
+      12: 0
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_MEDIUM_SCOUT
+        count: 2
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_LARGE_SCOUT
+        count: 3
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_TERROR_SHIP
+        count: 2
+        trajectory: P8
+        timer: 3000

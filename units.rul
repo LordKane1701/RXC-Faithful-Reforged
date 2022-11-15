@@ -1,0 +1,700 @@
+units:
+  - type: STR_TANK_CANNON_GUARDIAN
+    race: STR_TANK_CANNON_GUARDIAN
+    stats:
+      tu: 60
+      stamina: 85
+      health: 160
+      bravery: 110
+      reactions: 15
+      firing: 48
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: TANK_ARMOR_GUARDIAN
+    standHeight: 16
+    kneelHeight: 16
+    value: 25
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 43
+    builtInWeaponSets:
+          -
+            - STR_AUX_TANK_MACHINEGUN
+  - type: STR_TANK_CANNON
+    race: STR_TANK_CANNON
+    stats:
+      tu: 70
+      stamina: 100
+      health: 120
+      bravery: 110
+      reactions: 25
+      firing: 60
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: TANK_ARMOR
+    standHeight: 16
+    kneelHeight: 16
+    value: 20
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 50
+    builtInWeaponSets:
+          -
+            - STR_AUX_TANK_MACHINEGUN
+  - type: STR_TANK_CANNON_ASSAULT
+    race: STR_TANK_CANNON_ASSAULT
+    stats:
+      tu: 80
+      stamina: 115
+      health: 80
+      bravery: 110
+      reactions: 40
+      firing: 72
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: TANK_ARMOR_ASSAULT
+    standHeight: 16
+    kneelHeight: 16
+    value: 15
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 57
+    builtInWeaponSets:
+          -
+            - STR_AUX_TANK_MACHINEGUN
+  - type: STR_TANK_ROCKET_GUARDIAN
+    race: STR_TANK_ROCKET_GUARDIAN
+    stats:
+      tu: 60
+      stamina: 85
+      health: 160
+      bravery: 110
+      reactions: 15
+      firing: 48
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: TANK_ARMOR_GUARDIAN
+    standHeight: 16
+    kneelHeight: 16
+    value: 25
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 43
+    builtInWeaponSets:
+          -
+            - STR_AUX_TANK_CANNON
+  - type: STR_TANK_ROCKET_LAUNCHER
+    race: STR_TANK_ROCKET_LAUNCHER
+    stats:
+      tu: 70
+      stamina: 100
+      health: 120
+      bravery: 110
+      reactions: 25
+      firing: 60
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: TANK_ARMOR
+    standHeight: 16
+    kneelHeight: 16
+    value: 20
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 50
+    builtInWeaponSets:
+          -
+            - STR_AUX_TANK_CANNON
+  - type: STR_TANK_ROCKET_ASSAULT
+    race: STR_TANK_ROCKET_ASSAULT
+    stats:
+      tu: 80
+      stamina: 115
+      health: 85
+      bravery: 110
+      reactions: 40
+      firing: 72
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: TANK_ARMOR_ASSAULT
+    standHeight: 16
+    kneelHeight: 16
+    value: 15
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 57
+    builtInWeaponSets:
+          -
+            - STR_AUX_TANK_CANNON
+  - type: STR_TANK_AE_ROCKET_GUARDIAN
+    race: STR_TANK_AE_ROCKET_GUARDIAN
+    stats:
+      tu: 71
+      stamina: 90
+      health: 160
+      bravery: 110
+      reactions: 15
+      firing: 48
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: TANK_ARMOR_GUARDIAN_ALLOY
+    standHeight: 16
+    kneelHeight: 16
+    value: 25
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 43
+    builtInWeaponSets:
+          -
+            - STR_AUX_TANK_CANNON
+  - type: STR_TANK_AE_ROCKET_BATTLE
+    race: STR_TANK_AE_ROCKET_BATTLE
+    stats:
+      tu: 84
+      stamina: 105
+      health: 120
+      bravery: 110
+      reactions: 25
+      firing: 60
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: TANK_ARMOR_BATTLE_ALLOY
+    standHeight: 16
+    kneelHeight: 16
+    value: 20
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 50
+    builtInWeaponSets:
+          -
+            - STR_AUX_TANK_CANNON
+  - type: STR_TANK_AE_ROCKET_ASSAULT
+    race: STR_TANK_AE_ROCKET_ASSAULT
+    stats:
+      tu: 97
+      stamina: 120
+      health: 80
+      bravery: 110
+      reactions: 40
+      firing: 72
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: TANK_ARMOR_ASSAULT_ALLOY
+    standHeight: 16
+    kneelHeight: 16
+    value: 15
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 57
+    builtInWeaponSets:
+          -
+            - STR_AUX_TANK_CANNON
+  - type: STR_TANK_LASER_GUARDIAN
+    race: STR_TANK_LASER_GUARDIAN
+    stats:
+      tu: 71
+      stamina: 90
+      health: 160
+      bravery: 110
+      reactions: 15
+      firing: 48
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: TANK_ARMOR_GUARDIAN_ALLOY
+    standHeight: 16
+    kneelHeight: 16
+    value: 25
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 45
+    builtInWeaponSets:
+          -
+            - STR_AUX_PULSE_LASER
+  - type: STR_TANK_LASER_CANNON
+    race: STR_TANK_LASER_CANNON
+    stats:
+      tu: 84
+      stamina: 105
+      health: 120
+      bravery: 110
+      reactions: 25
+      firing: 60
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: TANK_ARMOR_BATTLE_ALLOY
+    standHeight: 16
+    kneelHeight: 16
+    value: 20
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 52
+    builtInWeaponSets:
+          -
+            - STR_AUX_PULSE_LASER
+  - type: STR_TANK_LASER_ASSAULT
+    race: STR_TANK_LASER_ASSAULT
+    stats:
+      tu: 97
+      stamina: 120
+      health: 80
+      bravery: 110
+      reactions: 40
+      firing: 72
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: TANK_ARMOR_ASSAULT_ALLOY
+    standHeight: 16
+    kneelHeight: 16
+    value: 15
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 60
+    builtInWeaponSets:
+          -
+            - STR_AUX_PULSE_LASER
+  - type: STR_HOVERTANK_PLASMA_GUARDIAN
+    race: STR_HOVERTANK_PLASMA_GUARDIAN
+    stats:
+      tu: 85
+      stamina: 90
+      health: 160
+      bravery: 110
+      reactions: 20
+      firing: 48
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: HOVERTANK_ARMOR_GUARDIAN
+    standHeight: 12
+    kneelHeight: 12
+    floatHeight: 6
+    value: 25
+    deathSound: 23
+    moveSound: 40
+    energyRecovery: 45
+    builtInWeaponSets:
+          -
+            - STR_AUX_PULSE_LASER
+  - type: STR_HOVERTANK_PLASMA
+    race: STR_HOVERTANK_PLASMA
+    stats:
+      tu: 100
+      stamina: 110
+      health: 120
+      bravery: 110
+      reactions: 30
+      firing: 60
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: HOVERTANK_ARMOR
+    standHeight: 12
+    kneelHeight: 12
+    floatHeight: 6
+    value: 20
+    deathSound: 23
+    moveSound: 40
+    energyRecovery: 55
+    builtInWeaponSets:
+          -
+            - STR_AUX_PULSE_LASER
+  - type: STR_HOVERTANK_PLASMA_ASSAULT
+    race: STR_HOVERTANK_PLASMA_ASSAULT
+    stats:
+      tu: 115
+      stamina: 130
+      health: 80
+      bravery: 110
+      reactions: 45
+      firing: 72
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: HOVERTANK_ARMOR_ASSAULT
+    standHeight: 12
+    kneelHeight: 12
+    floatHeight: 6
+    value: 15
+    deathSound: 23
+    moveSound: 40
+    energyRecovery: 65
+    builtInWeaponSets:
+          -
+            - STR_AUX_PULSE_LASER
+  - type: STR_HOVERTANK_LAUNCHER_GUARDIAN
+    race: STR_HOVERTANK_LAUNCHER_GUARDIAN
+    stats:
+      tu: 85
+      stamina: 90
+      health: 160
+      bravery: 110
+      reactions: 20
+      firing: 48
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 60
+    armor: HOVERTANK_ARMOR_GUARDIAN
+    standHeight: 12
+    kneelHeight: 12
+    floatHeight: 6
+    value: 25
+    deathSound: 23
+    moveSound: 40
+    energyRecovery: 45
+    builtInWeaponSets:
+          -
+            - STR_AUX_PULSE_LASER
+  - type: STR_HOVERTANK_LAUNCHER
+    race: STR_HOVERTANK_LAUNCHER
+    stats:
+      tu: 100
+      stamina: 110
+      health: 120
+      bravery: 110
+      reactions: 30
+      firing: 60
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 60
+    armor: HOVERTANK_ARMOR
+    standHeight: 12
+    kneelHeight: 12
+    floatHeight: 6
+    value: 20
+    deathSound: 23
+    moveSound: 40
+    energyRecovery: 55
+    builtInWeaponSets:
+          -
+            - STR_AUX_PULSE_LASER
+  - type: STR_HOVERTANK_LAUNCHER_ASSAULT
+    race: STR_HOVERTANK_LAUNCHER_ASSAULT
+    stats:
+      tu: 115
+      stamina: 130
+      health: 80
+      bravery: 110
+      reactions: 45
+      firing: 72
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 60
+    armor: HOVERTANK_ARMOR_ASSAULT
+    standHeight: 12
+    kneelHeight: 12
+    floatHeight: 6
+    value: 15
+    deathSound: 23
+    moveSound: 40
+    energyRecovery: 65
+    builtInWeaponSets:
+          -
+            - STR_AUX_PULSE_LASER
+  - type: STR_SECTOID_SOLDIER
+    stats:
+      tu: 48
+      stamina: 54
+      health: 20
+      reactions: 32
+      firing: 60
+      psiStrength: 36
+  - type: STR_SECTOID_ENGINEER
+    stats:
+      tu: 48
+      stamina: 54
+      health: 20
+      reactions: 32
+      firing: 60
+      psiStrength: 36
+  - type: STR_SECTOID_MEDIC
+    stats:
+      tu: 48
+      stamina: 54
+      health: 20
+      reactions: 32
+      firing: 60
+      psiStrength: 36
+  - type: STR_SECTOID_NAVIGATOR
+    stats:
+      tu: 48
+      stamina: 54
+      health: 20
+      reactions: 32
+      firing: 60
+      psiStrength: 36
+  - type: STR_SECTOID_LEADER
+    intelligence: 0
+    stats:
+      tu: 48
+      stamina: 54
+      health: 25
+      reactions: 28
+      firing: 50
+      psiStrength: 40
+      psiSkill: 40
+    psiWeapon: SECTOID_PSI_WEAPON
+  - type: STR_SECTOID_COMMANDER
+    intelligence: 0
+    stats:
+      tu: 48
+      stamina: 54
+      health: 30
+      reactions: 25
+      firing: 40
+      psiStrength: 44
+      psiSkill: 60
+    psiWeapon: SECTOID_PSI_WEAPON
+  - type: STR_CYBERDISC_TERRORIST
+    stats:
+      tu: 55
+      stamina: 54
+      health: 40
+      reactions: 38
+      firing: 67
+      psiStrength: 72
+      melee: 0
+  - type: STR_FLOATER_SOLDIER
+    stats:
+      tu: 46
+      stamina: 54
+      health: 23
+      reactions: 22
+      firing: 54
+      psiStrength: 25
+  - type: STR_FLOATER_ENGINEER
+    stats:
+      tu: 46
+      stamina: 54
+      health: 23
+      reactions: 22
+      firing: 54
+      psiStrength: 25
+  - type: STR_FLOATER_MEDIC
+    stats:
+      tu: 46
+      stamina: 54
+      health: 23
+      reactions: 22
+      firing: 54
+      psiStrength: 25
+  - type: STR_FLOATER_NAVIGATOR
+    stats:
+      tu: 46
+      stamina: 54
+      health: 23
+      reactions: 22
+      firing: 54
+      psiStrength: 25
+  - type: STR_FLOATER_LEADER
+    stats:
+      tu: 46
+      stamina: 54
+      health: 29
+      reactions: 19
+      firing: 49
+      psiStrength: 29
+  - type: STR_FLOATER_COMMANDER
+    stats:
+      tu: 46
+      stamina: 54
+      health: 35
+      reactions: 17
+      firing: 44
+      psiStrength: 33
+  - type: STR_REAPER_TERRORIST
+    stats:
+      tu: 55
+      stamina: 54
+      health: 180
+      reactions: 33
+      strength: 62
+      psiStrength: 25
+  - type: STR_SNAKEMAN_SOLDIER
+    stats:
+      tu: 39
+      stamina: 48
+      health: 53
+      reactions: 19
+      firing: 65
+      psiStrength: 28
+  - type: STR_SNAKEMAN_ENGINEER
+    stats:
+      tu: 39
+      stamina: 48
+      health: 53
+      reactions: 19
+      firing: 65
+      psiStrength: 28
+  - type: STR_SNAKEMAN_NAVIGATOR
+    stats:
+      tu: 39
+      stamina: 48
+      health: 53
+      reactions: 19
+      firing: 65
+      psiStrength: 28
+  - type: STR_SNAKEMAN_LEADER
+    stats:
+      tu: 39
+      stamina: 48
+      health: 64
+      reactions: 17
+      firing: 60
+      psiStrength: 32
+  - type: STR_SNAKEMAN_COMMANDER
+    stats:
+      tu: 39
+      stamina: 48
+      health: 75
+      reactions: 15
+      firing: 55
+      psiStrength: 36
+  - type: STR_CHRYSSALID_TERRORIST
+    stats:
+      tu: 79
+      stamina: 84
+      health: 48
+      reactions: 32
+      strength: 76
+      psiStrength: 35
+  - type: STR_MUTON_SOLDIER
+    stats:
+      tu: 50
+      stamina: 54
+      health: 128
+      reactions: 30
+      firing: 60
+      psiStrength: 18
+  - type: STR_MUTON_NAVIGATOR
+    stats:
+      tu: 50
+      stamina: 54
+      health: 137
+      reactions: 30
+      firing: 60
+      psiStrength: 18
+  - type: STR_MUTON_ENGINEER
+    stats:
+      tu: 50
+      stamina: 54
+      health: 146
+      reactions: 30
+      firing: 60
+      psiStrength: 18
+  - type: STR_SILACOID_TERRORIST
+    stats:
+      tu: 46
+      stamina: 48
+      health: 57
+      reactions: 20
+      strength: 52
+      psiStrength: 55
+  - type: STR_CELATID_TERRORIST
+    stats:
+      tu: 60
+      stamina: 54
+      health: 45
+      reactions: 20
+      firing: 112
+      psiStrength: 55
+      melee: 0
+  - type: STR_ETHEREAL_SOLDIER
+    intelligence: 0
+    stats:
+      tu: 49
+      stamina: 58
+      health: 20
+      reactions: 25
+      firing: 55
+      throwing: 65
+      psiStrength: 55
+      psiSkill: 25
+    psiWeapon: ETHEREAL_PSI_WEAPON
+  - type: STR_ETHEREAL_LEADER
+    intelligence: 0
+    stats:
+      tu: 45
+      stamina: 58
+      health: 25
+      reactions: 15
+      firing: 45
+      throwing: 50
+      psiStrength: 60
+      psiSkill: 50
+    psiWeapon: ETHEREAL_PSI_WEAPON
+  - type: STR_ETHEREAL_COMMANDER
+    intelligence: 0
+    stats:
+      tu: 42
+      stamina: 58
+      health: 30
+      reactions: 10
+      firing: 40
+      throwing: 45
+      psiStrength: 65
+      psiSkill: 60
+    psiWeapon: ETHEREAL_PSI_WEAPON
+  - type: STR_SECTOPOD_TERRORIST
+    stats:
+      tu: 55
+      stamina: 54
+      health: 64
+      reactions: 37
+      firing: 67
+      psiStrength: 70
+      melee: 0
+  - type: STR_ZOMBIE
+    stats:
+      tu: 39
+      stamina: 66
+      health: 56
+      reactions: 15
+      strength: 58
+      psiStrength: 60

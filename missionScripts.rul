@@ -1,0 +1,81 @@
+missionScripts:
+
+  - type: beginnerRetaliation
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION_2: 100
+      3:
+        STR_ALIEN_RETALIATION_2: 75
+        STR_ALIEN_RETALIATION: 25
+      6:
+        STR_ALIEN_RETALIATION_2: 50
+        STR_ALIEN_RETALIATION: 50
+      9:
+        STR_ALIEN_RETALIATION_2: 25
+        STR_ALIEN_RETALIATION: 75
+      12:
+        STR_ALIEN_RETALIATION: 100
+
+  - type: experiencedRetaliation
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION_2: 100
+      3:
+        STR_ALIEN_RETALIATION_2: 75
+        STR_ALIEN_RETALIATION: 25
+      6:
+        STR_ALIEN_RETALIATION_2: 50
+        STR_ALIEN_RETALIATION: 50
+      9:
+        STR_ALIEN_RETALIATION_2: 25
+        STR_ALIEN_RETALIATION: 75
+      12:
+        STR_ALIEN_RETALIATION: 100
+
+  - type: veteranRetaliation
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION_2: 100
+      3:
+        STR_ALIEN_RETALIATION_2: 75
+        STR_ALIEN_RETALIATION: 25
+      6:
+        STR_ALIEN_RETALIATION_2: 50
+        STR_ALIEN_RETALIATION: 50
+      9:
+        STR_ALIEN_RETALIATION_2: 25
+        STR_ALIEN_RETALIATION: 75
+      12:
+        STR_ALIEN_RETALIATION: 100
+
+  - type: geniusRetaliation
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION_2: 100
+      3:
+        STR_ALIEN_RETALIATION_2: 75
+        STR_ALIEN_RETALIATION: 25
+      6:
+        STR_ALIEN_RETALIATION_2: 50
+        STR_ALIEN_RETALIATION: 50
+      9:
+        STR_ALIEN_RETALIATION_2: 25
+        STR_ALIEN_RETALIATION: 75
+      12:
+        STR_ALIEN_RETALIATION: 100
+
+  - type: superhumanRetaliation
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION_2: 100
+      3:
+        STR_ALIEN_RETALIATION_2: 75
+        STR_ALIEN_RETALIATION: 25
+      6:
+        STR_ALIEN_RETALIATION_2: 50
+        STR_ALIEN_RETALIATION: 50
+      9:
+        STR_ALIEN_RETALIATION_2: 25
+        STR_ALIEN_RETALIATION: 75
+      12:
+        STR_ALIEN_RETALIATION: 100
