@@ -222,6 +222,7 @@ items:
     fireSound: 52
     compatibleAmmo:
       - STR_HWP_G_ROCKETS
+    
     accuracySnap: 55
     accuracyAimed: 115
     tuSnap: 45
@@ -701,10 +702,13 @@ items:
     size: 0.2
     weight: 5
     bigSprite: 341
+    accuracyAuto: 40
     accuracySnap: 60
     accuracyAimed: 88
-    tuSnap: 18
+    AutoShots: 2
+    tuSnap: 10
     tuAimed: 30
+    tuAuto: 5
     armor: 50
   - type: STR_PISTOL_CLIP
     size: 0.1
@@ -726,11 +730,11 @@ items:
       - STR_AUTO_PISTOL_CLIP
     accuracyAuto: 40
     accuracySnap: 45
-    accuracyAimed: 66
+    accuracyAimed: 0
     tuAuto: 19
     tuSnap: 12
-    tuAimed: 20
-    autoShots: 5
+    tuAimed: 0
+    autoShots: 4
     battleType: 1
     invWidth: 1
     invHeight: 2
@@ -754,11 +758,11 @@ items:
   - type: STR_RIFLE
     size: 0.3
     weight: 8
-    accuracyAuto: 35
-    accuracySnap: 70
+    accuracyAuto: 25
+    accuracySnap: 50
     accuracyAimed: 115
-    tuAuto: 35
-    tuSnap: 25
+    tuAuto: 7
+    tuSnap: 14
     tuAimed: 70
     autoShots: 2
     armor: 50
@@ -780,13 +784,13 @@ items:
     fireSound: 4
     compatibleAmmo:
       - STR_MACHINEGUN_CLIP
-    accuracyAuto: 47
-    accuracySnap: 44
-    accuracyAimed: 86
+    accuracyAuto: 77
+    accuracySnap: 54
+    accuracyAimed: 0
     tuAuto: 27
     tuSnap: 16
-    tuAimed: 46
-    autoShots: 5
+    tuAimed: 0
+    autoShots: 4
     battleType: 1
     twoHanded: true
     invWidth: 2
@@ -865,7 +869,7 @@ items:
     tuAuto: 48
     tuSnap: 24
     tuAimed: 45
-    autoShots: 5
+    autoShots: 3
     maxRange: 30
     armor: 50
   - type: STR_AC_AP_AMMO

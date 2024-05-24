@@ -7,7 +7,6 @@ allowCountriesToCancelAlienPact: false
 lessAliensDuringBaseDefense: true
 fixedUserOptions:
   allowPsiStrengthImprovement: false
-  battleUFOExtenderAccuracy: true
   weaponSelfDestruction: false
 recommendedUserOptions:
   aggressiveRetaliation: false

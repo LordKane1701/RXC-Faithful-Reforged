@@ -20,7 +20,7 @@ facilities:
     monthlyCost: 20000
     personnel: 25
     mapName: XBASS_01
-    sickBayRelativeBonus: 1.07
+    sickBayAbsoluteBonus: 1.07
     buildOverFacilities:
       - STR_CORRIDOR
       - STR_EMPTY_ROOM
@@ -91,9 +91,9 @@ facilities:
     requires:
       - STR_ALIENS_ONLY
   - type: STR_LARGE_RADAR_FACILITY
-    spriteShape: 432
-    spriteFacility: 432
-    size: 2
+    spriteShape: 1 #spriteShape: 432
+    spriteFacility: 22 #spriteFacility: 432
+    size: 1 #size: 2
     buildCost: 2000000
     buildTime: 26
     monthlyCost: 80000
@@ -101,7 +101,7 @@ facilities:
     radarChance: 40
     sightRange: 2700
     sightChance: 40
-    mapName: RBASE_16
+    mapName: XBASE_05
     buildOverFacilities:
       - STR_CORRIDOR
       - STR_EMPTY_ROOM
@@ -207,9 +207,9 @@ facilities:
     requires:
       - STR_HYPER_WAVE_DECODER
     hyper: true
-    spriteShape: 440
-    spriteFacility: 440
-    size: 2
+    spriteShape: 2 #spriteShape: 440
+    spriteFacility: 32 #spriteFacility: 440
+    size: 1 #size:2
     buildCost: 11200000
     buildTime: 38
     monthlyCost: 480000
@@ -217,7 +217,7 @@ facilities:
     radarChance: 100
     sightRange: 3600
     sightChance: 100
-    mapName: RBASE_12
+    mapName: XBASE_15
     buildOverFacilities:
       - STR_CORRIDOR
       - STR_EMPTY_ROOM
